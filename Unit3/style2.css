@@ -1,5 +1,5 @@
 body {
-	background: url("assets/stripes.png"), url("assets/background.jpg"), #52596B;
+	background: url("Assets/stripes.png"), url("Assets/background.jpg"), #52596B;
 	background-repeat: repeat-x, no-repeat;
 	font-family: Helvetica, Arial, Sans-Serif;
 	font-weight: 100;

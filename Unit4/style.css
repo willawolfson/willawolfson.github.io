@@ -1,11 +1,13 @@
 body {
-	background: #90d2d3 url("assets/background.gif"); 
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: url("assets/background.gif") no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 header {
-	padding-top: 15px;
+	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
 }
@@ -15,7 +17,9 @@ h1 {
 	font-size: 50px;
 	letter-spacing: 12px;
 	color: #18330D;
-	margin-top: 155px;
+	margin-top: 150px;
+	margin-left: 10px;
+	margin-right: 10px;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -24,7 +28,10 @@ p {
 	font-family: 'Merriweather', serif;
 	font-size: 14px;
 	margin-top: 60px;
-	margin-bottom: 350px;
 	text-align: center;
 	letter-spacing: 2px;
+	color: #18330D;
+	margin-bottom: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
 }

@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+}
+
+h1 {
+	font-family:'Open Sans', sans-serif;
+	font-size: 1.618em;
+	font-weight: 700;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	color: #1C1C1C;
+	text-align: center;
+	background-color: #FF3366;
+	height: 100px;
+	padding-top: 15px;
+	padding-bottom: auto;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+p {
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	font-weight: 50px;
+	letter-spacing: 1px;
+	color: #343434;
+	background-color: #ffffff;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 150%;
+}
+
+ul {
+	list-style-type: none;
+	overflow: none;
+}
+
+li { 
+	float: right;
+}
+
+a { 
+	display: block;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 200;
+	width: 90px;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+a:hover, a:active {
+	background-color: #FF3366;
+	color: #1C1C1C;
+	font-weight: 700;
+}
+
+#nav {
+	padding-top: 10px;
+	padding-bottom: auto;
+	background-color: #343434;
+	height: 100px;
+}
+
+#logo {
+	float: left;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+#logo a {
+	padding: 0;
+	margin: 0;
+}
+
+#logo a:hover, #logo a:active {
+	background-color: #343434;
+}
+
+
+#image {
+	text-align: center;
+	clear: both;
+	background: url("assets/background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	height: 609px;
+}
+
+#text1 {
+	background-color: #FF3366;
+}
+
+#text2 {
+	background-color: #ffffff;
+}
+
+#footer {
+	clear: both;
+	display: inline-block;
+	background-color: #343434;
+	text-align: center;
+	width: 100%;
+}
+
+#copyright {
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+	float: left;
+	font-size: 12px;
+	color:#ffffff;
+	padding-left: 22px;
+	padding-top: 15px;
+}
+
+#social a {
+	float: right;
+	display: inline-block;
+	width: 60px;
+	height: 50px;
+	text-align: center;
+	padding: 10px;
+	margin-top: 0px;
+	background-color: #343434;
+}
+
+#social a:hover, #social a:active {
+	background-color: #FF3366;
+}

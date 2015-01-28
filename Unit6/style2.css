@@ -37,6 +37,12 @@ body {
 	line-height: 150%;
 }
 
+header {
+	background-color: #343434;
+	width: 100%;
+	height: 5.6em;
+}
+
 nav {
 	background-color: #343434;
 	width: 100%;
@@ -44,12 +50,13 @@ nav {
 }
 
 nav ul {
+	float: right;
 	list-style-type: none;
 	overflow: none;
 }
 
-nav li { 
-	float: right;
+nav li {
+	float: left;
 }
 
 nav a { 
@@ -376,7 +383,7 @@ figcaption {
 		display: block;
 		margin: 0 auto;
 	}
-	nav li {
+	nav ul, li {
 		width: 100%;
 		display: block;
 	}

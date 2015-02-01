@@ -49,17 +49,17 @@ nav {
 	height: 5.6em;
 }
 
-nav ul {
+.nav_lg ul {
 	float: right;
-	list-style-type: none;
+	list-style: none;
 	overflow: none;
 }
 
-nav li {
+.nav_lg li {
 	float: left;
 }
 
-nav a { 
+.nav_lg a { 
 	display: block;
 	font-family:'Open Sans', sans-serif;
 	letter-spacing: 1px;
@@ -70,9 +70,52 @@ nav a {
 	font-size: 1em;
 }
 
-nav a:hover, nav a:active {
+.nav_lg a:hover, .nav_lg a:active {
 	background-color: #FF3366;
 	color: #ffffff;
+}
+
+.nav_sm {
+	display:none;
+}
+
+.nav_sm ul, li {
+	list-style: none;
+	width: 100%;
+}
+
+.nav_sm a {
+	padding: 1em;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 1.2em;
+	background-color: #999999;
+	text-decoration: none;
+	color: #1C1C1C;
+}
+
+.nav_sm a:hover, nav a:active {
+	color: #FF3366;
+	background-color: #ffffff;
+}
+
+.nav_sm img {
+	width: 40px;
+	float: right;
+	margin: 19px 20px;
+}
+
+label {
+  cursor: pointer;
+}
+#menu-toggle {
+  display: none; /* hide the checkbox */
+}
+#menu {
+  display: none;
+}
+#menu-toggle:checked + #menu {
+  display: block;
 }
 
 #logo {
@@ -383,20 +426,12 @@ figcaption {
 		display: block;
 		margin: 0 auto;
 	}
-	nav ul, li {
-		width: 100%;
+	.nav_sm {
 		display: block;
+		width: 100%;
 	}
-	nav a {
-		padding: 1em;
-		font-weight: 700;
-		font-size: 1.2em;
-		background-color: #999999;
-		color: #1C1C1C;
-	}
-	nav a:hover, nav a:active {
-		color: #FF3366;
-		background-color: #ffffff;
+	.nav_lg {
+		display: none;
 	}
 	#image img {
 		width: 100%;

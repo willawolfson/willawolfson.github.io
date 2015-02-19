@@ -43,26 +43,26 @@ header {
 	height: 5.6em;
 }
 
-nav {
+/*nav {
+	background-color: #343434;
 	width: 100%;
+	height: 5.6em;
 }
+*/
 
-
-#nav_lg {
-	display: block;
-}
-
-#nav_lg ul {
+.nav_lg {
 	float: right;
+}
+.nav_lg ul {
 	list-style: none;
 }
 
-#nav_lg li {
+.nav_lg li {
 	display: block;
 	float: left;
 }
 
-#nav_lg li a { 
+.nav_lg a { 
 	display: block;
 	font-family:'Open Sans', sans-serif;
 	letter-spacing: 1px;
@@ -73,30 +73,26 @@ nav {
 	font-size: 1em;
 }
 
-#nav_lg li a:hover, #nav_lg li a:active, #nav_sm a:hover, #nav_sm a:active {
+.nav_lg a:hover, .nav_lg a:active {
 	background-color: #FF3366;
 	color: #ffffff;
 }
 
-#nav_sm {
+.nav_sm {
 	display:none;
 }
-	
-/*#nav_sm a:hover, #nav_sm a:active {
-	color: #FF3366;
-	background-color: #ffffff;
-	}*/
 
 label {
   cursor: pointer;
 }
-
 #menu-toggle {
   display: none; /* hide the checkbox */
 }
-
 #menu {
   display: none;
+}
+#menu-toggle:checked + #menu {
+  display: block;
 }
 
 #logo {
@@ -399,8 +395,6 @@ figcaption {
 	}
 }
 
-/*---------------------------------------------- MOBILE ---------*/
-
 @media screen and (max-width: 500px) {
 	body {
 		font-size: 12px;
@@ -409,46 +403,35 @@ figcaption {
 		display: block;
 		float: left;
 	}
-
-	#nav_lg {
+	.nav_sm {
+		display: block;
+		width: 100%;
+		float: right;
+	}
+	.nav_sm img {
+	width: 40px;
+	margin: 0;
+	}
+	.nav_sm ul, li {
+	list-style: none;
+	width: 100%;
+	}
+	.nav_sm a {
+	padding: 1em;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 1.2em;
+	background-color: #999999;
+	text-decoration: none;
+	color: #1C1C1C;
+	}
+	.nav_sm a:hover, nav a:active {
+	color: #FF3366;
+	background-color: #ffffff;
+	}
+	.nav_lg {
 		display: none;
 	}
-
-	#nav_sm {
-		display: block;
-	}
-
-	#nav_sm label  {
-		margin-top:-4em;
-		float: right;
-
-	}
-
-	#nav_sm label img {
-		width: 40px;
-	}
-
-	#menu-toggle:checked + #menu {
-  		display: block;
-	}
-
-	#nav_sm ul {
-		list-style: none;
-	}
-
-	#nav_sm li a {
-		margin:2em;
-		padding-top: 1em;
-		display: block;
-		width:100%;
-		font-family:'Open Sans', sans-serif;
-		font-weight: 700;
-		font-size: 1.2em;
-		background-color: #999999;
-		text-decoration: none;
-		color: #1C1C1C;
-	}
-	
 	#image img {
 		width: 100%;
 	}

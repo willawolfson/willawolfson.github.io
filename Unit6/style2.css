@@ -91,8 +91,18 @@ label {
 #menu {
   display: none;
 }
+
+.nav_sm > label { 
+	position: absolute;
+	right: 20px;
+	top: 16px
+}
+
+
 #menu-toggle:checked + #menu {
   display: block;
+  float: left;
+  width: 100%;
 }
 
 #logo {
@@ -406,7 +416,7 @@ figcaption {
 	.nav_sm {
 		display: block;
 		width: 100%;
-		float: right;
+		/* position: absolute; */
 	}
 	.nav_sm img {
 	width: 40px;
@@ -422,9 +432,13 @@ figcaption {
 	font-weight: 700;
 	font-size: 1.2em;
 	background-color: #999999;
+	text-align: center;
 	text-decoration: none;
+	float: left;
 	color: #1C1C1C;
-	}
+	clear: both;
+	width: 100%;
+}
 	.nav_sm a:hover, nav a:active {
 	color: #FF3366;
 	background-color: #ffffff;

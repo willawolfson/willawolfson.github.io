@@ -196,6 +196,7 @@ footer {
 
 .gallery a {
 	padding: 0 1em;
+	cursor: default;
 }
 
 .row1 {

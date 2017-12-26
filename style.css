@@ -1,0 +1,362 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+}
+
+#title h1 {
+	font-family:'Open Sans', sans-serif;
+	font-size: 1.618em;
+	font-weight: 700;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	color: #1C1C1C;
+	text-align: center;
+	background-color: #FF3366;
+	height: 110px;
+	padding-top: 20px;
+	padding-bottom: auto;
+	width: 500px;
+	margin: 0 auto;
+	}
+
+#about p {
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	font-weight: 50px;
+	letter-spacing: 1px;
+	color: #343434;
+	background-color: #ffffff;
+	text-align: center;
+	padding: 40px 10px;
+	width: 500px;
+	margin: 0 auto;
+	line-height: 150%;
+}
+
+nav {
+	background-color: #343434;
+	width: 100%;
+	height: 90px;
+}
+
+nav ul {
+	list-style-type: none;
+	overflow: none;
+}
+
+nav li { 
+	float: right;
+}
+
+nav a { 
+	display: block;
+	font-family:'Open Sans', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 100;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	padding: 34px 25px;
+}
+
+nav a:hover, nav a:active {
+	color: #FF3366;
+}
+
+#logo {
+	float: left;
+	margin: 12px 20px;
+	padding-top: 1px;
+}
+
+#logo a {
+	text-align: center;
+}
+
+#image {
+	text-align: center;
+	clear: both;
+	background: url("assets/background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	height: 606px;
+}
+
+#title {
+	background-color: #FF3366;
+}
+
+#about {
+	background-color: #ffffff;
+}
+
+footer {
+	position: absolute;
+	height: 49px;
+	display: inline-block;
+	background-color: #343434;
+	width: 100%;
+}
+
+#copyright {
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+	font-size: 12px;
+	color: #ffffff;
+	padding-left: 22px;
+	padding-top: 15px;
+}
+
+#social a {
+	float: right;
+	display: inline-block;
+	text-align: center;
+	padding: 10px 15px;
+	background-color: #343434;
+}
+
+#social a:hover, #social a:active {
+	background-color: #FF3366;
+}
+
+#title2 h1 {
+	font-family:'Open Sans', sans-serif;
+	font-size: 1.618em;
+	font-weight: 700;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	color: #1C1C1C;
+	text-align: center;
+	background-color: #FF3366;
+	height: 120px;
+	line-height: 120px;
+	display: block;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.gallery {
+	width: 100%;
+	height: 100%;
+	background: url("assets/leavesgrey.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.row1 {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	width: 909px;
+	background-color: #ffffff;
+}
+
+.row2 {
+	margin: 0 auto;
+	text-align: center;
+	width: 909px;
+	background-color: #ffffff;
+}
+
+.row3 {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	width: 909px;
+	background-color: #ffffff;
+}
+
+#lucky:hover {
+	content: url(assets/lucky.jpg);
+	width: 400px;
+	height: auto;
+	border: 10px solid #343434;
+}
+
+#otto:hover {
+	content: url(assets/otto.jpg);
+	width: 400px;
+	height: auto;
+	border: 10px solid #343434;
+}
+
+#ollie:hover {
+	content: url(assets/olliesmall.jpg);
+	width: 400px;
+	height: auto;
+	border: 10px solid #343434;
+}
+
+.circle {
+	font-family: 'Open Sans';
+	color: #1C1C1C;
+	float: right;
+	margin-right: 36px;
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	background: #FF3366;
+	text-align: center;
+	line-height: 400px;
+	font-size: 0em;
+}
+
+.circle:hover {
+	font-size: 1.618em;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 10px;
+}
+
+figure {
+	float: left;
+	padding: 75px 100px 50px 100px;
+	background: url("assets/leavesgrey.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  }
+
+.photo {
+	width: 600px;
+	height: 600px;
+	background-color: #ffffff;
+	border: 4px solid #1C1C1C;
+}
+
+figcaption {
+	font-family: 'Lora', serif;
+	font-size: 0.8em;
+	font-weight: 50px;
+	letter-spacing: 1px;
+	padding-top: 5px;
+	color: #1C1C1C;
+}
+
+#bio {
+	float: left;
+	padding: 75px 25px 0px 50px;
+	width: 600px;
+	height: auto;
+}
+
+#bio h2 {
+	font-family:'Open Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	color: #1C1C1C;
+	border: 4px solid #1C1C1C;
+	text-align: center;
+	padding: 10px 10px 10px 20px;
+}
+
+#bio p {
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	font-weight: 50px;
+	letter-spacing: 1px;
+	color: #1C1C1C;
+	background-color: #ffffff;
+	text-align: justify;
+	padding-top: 40px;
+	line-height: 150%;
+}
+
+.about {
+	width: 100%;
+	height: auto;
+	background: url("assets/leavesgrey.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#prices {
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 2px;
+	float: left;
+	padding: 50px 40px 40px 40px;
+	margin-left: 250px;
+	width: 400px;
+}
+
+#prices h2 {
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	color: #1C1C1C;
+	border: 4px solid #1C1C1C;
+	text-align: center;
+	padding: 10px 10px 10px 20px;
+	margin-bottom: 50px;
+}
+
+#prices ul {
+	list-style: none;
+	text-align: center;
+	line-height: 150%;
+}
+
+#ordering {
+	font-family: 'Open Sans';
+	letter-spacing: 2px;
+	float: right;
+	padding: 50px 40px 85px 40px;
+	margin-right: 250px;
+	width: 400px;
+}
+
+#ordering  h2{
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	color: #1C1C1C;
+	border: 4px solid #1C1C1C;
+	text-align: center;
+	padding: 10px 10px 10px 20px;
+	margin-bottom: 50px;
+}
+
+#ordering ul {
+	list-style: none;
+	text-align: center;
+	line-height: 150%;
+}
+
+#ordering li {
+	font-family: 'Lora', serif;
+}
+
+#ordering a {
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 20px;
+	color: #FF3366;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}

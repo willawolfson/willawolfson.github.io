@@ -1,0 +1,506 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+}
+
+#title h1 {
+	font-family:'Open Sans', sans-serif;
+	font-size: 1.618em;
+	font-weight: 700;
+	letter-spacing: .35em;
+	text-transform: uppercase;
+	color: #1C1C1C;
+	text-align: center;
+	background-color: #FF3366;
+	height: 4.25em;
+	padding-top: .8em;
+	padding-bottom: auto;
+	width: 19em;
+	margin: 0 auto;
+	}
+
+#about p {
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	letter-spacing: .0625em;
+	color: #343434;
+	background-color: #ffffff;
+	text-align: center;
+	padding: 2.5em .625em;
+	width: 31.25em;
+	margin: 0 auto;
+	line-height: 150%;
+}
+
+header {
+	background-color: #343434;
+	width: 100%;
+	height: 5.6em;
+}
+
+/*nav {
+	background-color: #343434;
+	width: 100%;
+	height: 5.6em;
+}
+*/
+
+.nav_lg {
+	float: right;
+}
+.nav_lg ul {
+	list-style: none;
+}
+
+.nav_lg li {
+	display: block;
+	float: left;
+}
+
+.nav_lg a { 
+	display: block;
+	font-family:'Open Sans', sans-serif;
+	letter-spacing: 1px;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	padding: 2.12em 1.2em;
+	font-size: 1em;
+}
+
+.nav_lg a:hover, .nav_lg a:active {
+	background-color: #FF3366;
+	color: #ffffff;
+}
+
+.nav_sm {
+	display:none;
+}
+
+label {
+  cursor: pointer;
+}
+#menu-toggle {
+  display: none; /* hide the checkbox */
+}
+#menu {
+  display: none;
+}
+
+.nav_sm > label { 
+	position: absolute;
+	right: 20px;
+	top: 16px
+}
+
+
+#menu-toggle:checked + #menu {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+#logo {
+	float: left;
+	margin: .75em 1.25em;
+}
+
+#logo img {
+	width: 12.5em;
+}
+
+#image {
+	text-align: center;
+	clear: both;
+	background: url("assets/background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	height: 606px;
+}
+
+#title {
+	background-color: #FF3366;
+}
+
+#about {
+	background-color: #ffffff;
+}
+
+footer {
+	position: absolute;
+	height: 3.25em;
+	display: inline-block;
+	background-color: #343434;
+	width: 100%;
+}
+
+#copyright {
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+	font-size: .75em;
+	color: #ffffff;
+	padding-left: 22px;
+	padding-top: 15px;
+}
+
+#social a {
+	float: right;
+	display: inline-block;
+	text-align: center;
+	padding: 0.7em 1em;
+	background-color: #343434;
+}
+
+#social img {
+	height: 1.5em;
+	width: auto;
+}
+
+#social a:hover, #social a:active {
+	background-color: #FF3366;
+}
+
+#title2 h1 {
+	font-family:'Open Sans', sans-serif;
+	font-size: 1.618em;
+	font-weight: 700;
+	letter-spacing: .35em;
+	text-transform: uppercase;
+	color: #1C1C1C;
+	text-align: center;
+	background-color: #FF3366;
+	height: 4em;
+	line-height: 4em;
+	padding: 0 .8em;
+	display: block;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.gallery {
+	width: 100%;
+	height: 100%;
+	background: url("assets/leavesgrey.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.gallery a {
+	padding: 0 1em;
+}
+
+.row1 {
+	margin: 0 auto;
+	text-align: center;
+	padding: 2em 0;
+	width: 50em;
+	background-color: #ffffff;
+}
+
+.row2 {
+	margin: 0 auto;
+	text-align: center;
+	width: 50em;
+	background-color: #ffffff;
+}
+
+.row3 {
+	margin: 0 auto;
+	text-align: center;
+	padding: 2em 0;
+	width: 50em;
+	background-color: #ffffff;
+}
+
+#ollie, #lucky, #otto, #olivia, #dog, #hannah {
+	width: 40%;
+	height: 40%;
+	border-radius: 50%;
+}
+
+#ollie:hover, #lucky:hover, #otto:hover, #olivia:hover, #dog:hover, #hannah:hover {
+	border-radius: 0;
+}
+
+#left {
+	float: left;
+	background: url("assets/leavesgrey.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	width: 50%;
+  	height: 750px;
+}
+
+figure {
+	padding: 3em 1em 0 1em;
+}
+
+#me {
+	display: block;
+	margin: 0 auto;
+	border: .25em solid #1C1C1C;
+	width: 90%;
+	height: 90%;
+}
+
+figcaption {
+	font-family: 'Lora', serif;
+	font-size: .7em;
+	letter-spacing: 1px;
+	padding-top: .3em;
+	padding-left: 5%;
+	color: #1C1C1C;
+}
+
+#bio {
+	float: left;
+	padding: 3em 3em 2em 3em;
+	width: 50%;
+	top: 50%;
+	bottom: 50%;
+}
+
+#bio h2 {
+	font-family:'Open Sans', sans-serif;
+	font-size: 1em;
+	letter-spacing: 0.6em;
+	text-transform: uppercase;
+	color: #1C1C1C;
+	border: .25em solid #1C1C1C;
+	text-align: center;
+	padding: .625em .625em .625em 1.25em;
+}
+
+#bio p {
+	font-family: 'Lora', serif;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	color: #1C1C1C;
+	background-color: #ffffff;
+	text-align: justify;
+	padding-top: 2.5em;
+	line-height: 150%;
+}
+
+#prices {
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: .1em;
+	float: left;
+	padding: 4em 3em 4em 3em;
+	width: 50%;
+}
+
+#ordering {
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: .1em;
+	float: right;
+	padding: 4em 3em 4em 3em;
+	right-margin: 3em;
+	width: 50%;
+}
+
+#prices h2, #ordering h2 {
+	font-size: 1.25em;
+	font-weight: 700;
+	letter-spacing: .3em;
+	text-transform: uppercase;
+	color: #1C1C1C;
+	border: .25em solid #1C1C1C;
+	text-align: center;
+	padding: .625em .625em .625em 1em;
+	margin-bottom: 2em;
+}
+
+#prices h3, #ordering h3 {
+	font-size: 1.1em;
+}
+
+#prices ul {
+	list-style: none;
+	text-align: center;
+	line-height: 150%;
+}
+
+#ordering ul {
+	list-style: none;
+	text-align: center;
+	line-height: 150%;
+}
+
+#ordering li {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#ordering a {
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1.1em;
+	color: #FF3366;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		font-size: 14px;
+	}
+	/*nav a {
+		padding: 2.1em 1.2em;
+		font-size: 1em;
+	} */
+	#image img {
+		width: 450px;
+	}
+	#image {
+		height: 545px;
+	}
+	#title2 h1 {
+		font-size: 1.618em;
+		height: 20%;
+	}
+	.row1, .row2, .row3 {
+		width: 100%;
+	}
+	#ollie, #lucky, #otto, #olivia, #dog, #hannah {
+		width: 40%;
+		height: 40%;
+	}
+	#ollie:hover, #lucky:hover, #otto:hover, #olivia:hover, #dog:hover, #hannah:hover {
+		width: 40%;
+		height: 40%;
+	}
+	#left {
+		display: block;
+		width: 100%;
+		height: 50%;
+	}
+	figure {
+		display: block;
+		width: 100%;
+		padding: 4em 4em 4em 4em;
+	}
+	#bio {
+		display: block;
+		width: 100%;
+		padding: 4em 6em 4em 6em;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	body {
+		font-size: 12px;
+	}
+	#logo img {
+		display: block;
+		float: left;
+	}
+	.nav_sm {
+		display: block;
+		width: 100%;
+		/* position: absolute; */
+	}
+	.nav_sm img {
+	width: 40px;
+	margin: 0;
+	}
+	.nav_sm ul, li {
+	list-style: none;
+	width: 100%;
+	}
+	.nav_sm a {
+	padding: 1em;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 1.2em;
+	background-color: #999999;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	color: #1C1C1C;
+	clear: both;
+	width: 100%;
+}
+	.nav_sm a:hover, nav a:active {
+	color: #FF3366;
+	background-color: #ffffff;
+	}
+	.nav_lg {
+		display: none;
+	}
+	#image img {
+		width: 100%;
+	}
+	#image {
+		height: auto;
+		margin-bottom: -5px;
+	}
+	#title h1 {
+		width: 100%;
+	}
+	#about p {
+		width: 100%;
+	}
+	.gallery a {
+		display: block;
+		text-align: center;
+		padding: 20px;
+	}
+	.gallery img {
+		padding: 0;
+		margin: 0;
+		height: 300px;
+		width: 300px;
+	}
+	#ollie, #lucky, #otto, #olivia, #dog, #hannah {
+		width: 80%;
+		height: 80%;
+	}
+	#ollie:hover, #lucky:hover, #otto:hover, #olivia:hover, #dog:hover, #hannah:hover {
+		width: 80%;
+		height: 80%;
+	}
+	.row1 {
+		padding: 30px 0 0 0;
+		text-align: center;
+	}
+	.row2 {
+		padding: 0;
+		text-align: center;
+	}
+	.row3 {
+		padding: 0;
+		text-align: center;
+	}
+	#bio {
+		display: block;
+		width: 100%;
+		padding: 3em 3em 3em 3em;
+	}
+	#prices, #ordering {
+		display: block;
+		width: 100%;
+	}
+	#prices {
+		padding: 4em 4em 0em 4em;
+	}
+
+}

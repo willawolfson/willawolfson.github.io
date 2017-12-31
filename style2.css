@@ -8,33 +8,57 @@ body {
 	font-size: 16px;
 }
 
+a {
+	text-decoration: none;
+	color: #FF3366;
+}
+
 #title h1 {
 	font-family:'Open Sans', sans-serif;
 	font-size: 1.618em;
 	font-weight: 700;
-	letter-spacing: .35em;
+	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	color: #1C1C1C;
 	text-align: center;
 	background-color: #FF3366;
-	height: 4.25em;
-	padding-top: .8em;
-	padding-bottom: auto;
-	width: 19em;
-	margin: 0 auto;
+	height: 3.2em;
+	padding-top: 0.5em;
+	vertical-align: middle;
 	}
 
 #about p {
-	font-family: 'Lora', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
-	letter-spacing: .0625em;
-	color: #343434;
+	letter-spacing: 0.05em;
+	color: #1C1C1C;
 	background-color: #ffffff;
 	text-align: center;
-	padding: 2.5em .625em;
-	width: 31.25em;
+	padding: 2.5em 0.625em;
+	width: 40em;
 	margin: 0 auto;
 	line-height: 150%;
+}
+
+.button a {
+	font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 1.25em;
+    font-weight: 500;
+    border: .2em solid #FF3366;
+    color: #FF3366;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    width: 20%;
+    margin: 0 40% 2em 40%;
+}
+
+.button a:hover, #button a:active {
+	background-color: #FF3366;
+	color: #ffffff;
 }
 
 header {
@@ -53,6 +77,7 @@ header {
 .nav_lg {
 	float: right;
 }
+
 .nav_lg ul {
 	list-style: none;
 }
@@ -65,7 +90,7 @@ header {
 .nav_lg a { 
 	display: block;
 	font-family:'Open Sans', sans-serif;
-	letter-spacing: 1px;
+	letter-spacing: 0.05em;
 	color: #ffffff;
 	text-align: center;
 	text-decoration: none;
@@ -85,9 +110,11 @@ header {
 label {
   cursor: pointer;
 }
+
 #menu-toggle {
   display: none; /* hide the checkbox */
 }
+
 #menu {
   display: none;
 }
@@ -98,7 +125,6 @@ label {
 	top: 16px
 }
 
-
 #menu-toggle:checked + #menu {
   display: block;
   float: left;
@@ -107,7 +133,7 @@ label {
 
 #logo {
 	float: left;
-	margin: .75em 1.25em;
+	margin: 0.75em 1.25em;
 }
 
 #logo img {
@@ -122,11 +148,12 @@ label {
  	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-	height: 606px;
+	height: 550px;
 }
 
 #title {
 	background-color: #FF3366;
+	padding-top: 20px;
 }
 
 #about {
@@ -135,7 +162,7 @@ label {
 
 footer {
 	position: absolute;
-	height: 3.25em;
+	height: 3.2em;
 	display: inline-block;
 	background-color: #343434;
 	width: 100%;
@@ -144,10 +171,10 @@ footer {
 #copyright {
 	font-family: 'Open Sans', sans-serif;
 	float: left;
-	font-size: .75em;
+	font-size: .85em;
 	color: #ffffff;
 	padding-left: 22px;
-	padding-top: 15px;
+	padding-top: 1.15em;
 }
 
 #social a {
@@ -167,11 +194,13 @@ footer {
 	background-color: #FF3366;
 }
 
+
+/* not using anymore
 #title2 h1 {
 	font-family:'Open Sans', sans-serif;
 	font-size: 1.618em;
 	font-weight: 700;
-	letter-spacing: .35em;
+	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	color: #1C1C1C;
 	text-align: center;
@@ -183,6 +212,7 @@ footer {
 	vertical-align: middle;
 	width: 100%;
 }
+*/
 
 .gallery {
 	width: 100%;
@@ -196,7 +226,6 @@ footer {
 
 .gallery a {
 	padding: 0 1em;
-	cursor: default;
 }
 
 .row1 {
@@ -240,7 +269,7 @@ footer {
   	-o-background-size: cover;
   	background-size: cover;
   	width: 50%;
-  	height: 750px;
+  	height: 720px;
 }
 
 figure {
@@ -250,9 +279,10 @@ figure {
 #me {
 	display: block;
 	margin: 0 auto;
-	border: .25em solid #1C1C1C;
+	border: 4px solid #1C1C1C;
 	width: 90%;
 	height: 90%;
+	max-width: 600px;
 }
 
 figcaption {
@@ -266,89 +296,64 @@ figcaption {
 
 #bio {
 	float: left;
-	padding: 3em 3em 2em 3em;
+	padding: 0 3em;
 	width: 50%;
 	top: 50%;
 	bottom: 50%;
 }
 
-#bio h2 {
-	font-family:'Open Sans', sans-serif;
-	font-size: 1em;
-	letter-spacing: 0.6em;
-	text-transform: uppercase;
-	color: #1C1C1C;
-	border: .25em solid #1C1C1C;
-	text-align: center;
-	padding: .625em .625em .625em 1.25em;
-}
 
 #bio p {
-	font-family: 'Lora', serif;
-	font-size: 0.9em;
-	letter-spacing: 1px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
 	color: #1C1C1C;
 	background-color: #ffffff;
-	text-align: justify;
 	padding-top: 2.5em;
 	line-height: 150%;
 }
 
-#prices {
+#sizes ul {
 	font-family: 'Open Sans', sans-serif;
-	letter-spacing: .1em;
-	float: left;
-	padding: 4em 3em 4em 3em;
-	width: 50%;
+	list-style: none;
+	letter-spacing: 0.05em;
+	text-align: center;
+	line-height: 150%;
+	width: 100%;
+	padding-bottom: 4em;
 }
 
-#ordering {
+#basics ul {
 	font-family: 'Open Sans', sans-serif;
-	letter-spacing: .1em;
-	float: right;
-	padding: 4em 3em 4em 3em;
+	list-style: none;
+	letter-spacing: 0.05em;
+	text-align: left;
+	padding: 3em 0 3em 0;
 	right-margin: 3em;
-	width: 50%;
+	line-height: 150%;
+	width: 60%;
+	margin: 0 auto;
 }
 
-#prices h2, #ordering h2 {
-	font-size: 1.25em;
-	font-weight: 700;
-	letter-spacing: .3em;
-	text-transform: uppercase;
+h2 {
+	font-family:'Open Sans', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: 0.05em;
 	color: #1C1C1C;
-	border: .25em solid #1C1C1C;
 	text-align: center;
-	padding: .625em .625em .625em 1em;
-	margin-bottom: 2em;
+	padding-top: 2em;
 }
 
-#prices h3, #ordering h3 {
-	font-size: 1.1em;
+#sizes h3 {
+	font-size: 1em;
+	padding: 3em 0 1em 0;
 }
 
-#prices ul {
-	list-style: none;
-	text-align: center;
-	line-height: 150%;
-}
-
-#ordering ul {
-	list-style: none;
-	text-align: center;
-	line-height: 150%;
-}
-
-#ordering li {
-	font-family: 'Open Sans', sans-serif;
-}
-
-#ordering a {
-	font-family: 'Open Sans', sans-serif;
-	text-decoration: none;
-	font-weight: 700;
-	font-size: 1.1em;
-	color: #FF3366;
+hr {
+	width: 60%;
+	border: none;
+	height: 1px;
+	background-color: #999999;
+	margin: 0 auto;
 }
 
 .clearfix:after {
@@ -362,71 +367,103 @@ figcaption {
 
 @media screen and (max-width: 800px) {
 	body {
-		font-size: 14px;
+		font-size: 15px;
 	}
 	/*nav a {
 		padding: 2.1em 1.2em;
 		font-size: 1em;
 	} */
+
 	#image img {
 		width: 450px;
 	}
+
+	#about p {
+	width: 80%
+	}
+
 	#image {
 		height: 545px;
 	}
+
 	#title2 h1 {
 		font-size: 1.618em;
 		height: 20%;
 	}
+
 	.row1, .row2, .row3 {
 		width: 100%;
 	}
+
 	#ollie, #lucky, #otto, #olivia, #dog, #hannah {
 		width: 40%;
 		height: 40%;
 	}
+
 	#ollie:hover, #lucky:hover, #otto:hover, #olivia:hover, #dog:hover, #hannah:hover {
 		width: 40%;
 		height: 40%;
 	}
+
 	#left {
 		display: block;
 		width: 100%;
 		height: 50%;
 	}
+
+	#basics ul {
+		width: 80%;
+	}
+
+	hr {
+	width: 80%;
+	}
+
 	figure {
 		display: block;
 		width: 100%;
 		padding: 4em 4em 4em 4em;
 	}
+
 	#bio {
 		display: block;
 		width: 100%;
-		padding: 4em 6em 4em 6em;
+		padding: 0 2em 3em 2em;
 	}
+
+	.button a {
+    width: 40%;
+    margin: 0 30% 3em 30%;
+    }
 }
 
 @media screen and (max-width: 500px) {
 	body {
-		font-size: 12px;
+		font-size: 14px;
 	}
+
 	#logo img {
 		display: block;
 		float: left;
 	}
+
 	.nav_sm {
 		display: block;
 		width: 100%;
 		/* position: absolute; */
 	}
+
 	.nav_sm img {
-	width: 40px;
+	width: 30px;
 	margin: 0;
+	padding-top: 0.8em;
 	}
+
 	.nav_sm ul, li {
 	list-style: none;
 	width: 100%;
 	}
+
 	.nav_sm a {
 	padding: 1em;
 	font-family:'Open Sans', sans-serif;
@@ -439,72 +476,39 @@ figcaption {
 	color: #1C1C1C;
 	clear: both;
 	width: 100%;
-}
+	}
+
 	.nav_sm a:hover, nav a:active {
 	color: #FF3366;
 	background-color: #ffffff;
 	}
+
 	.nav_lg {
 		display: none;
 	}
+
 	#image img {
 		width: 100%;
 	}
+
 	#image {
 		height: auto;
 		margin-bottom: -5px;
 	}
-	#title h1 {
-		width: 100%;
-	}
+	
 	#about p {
-		width: 100%;
+		width: 90%;
 	}
-	.gallery a {
-		display: block;
-		text-align: center;
-		padding: 20px;
-	}
-	.gallery img {
-		padding: 0;
-		margin: 0;
-		height: 300px;
-		width: 300px;
-	}
-	#ollie, #lucky, #otto, #olivia, #dog, #hannah {
-		width: 80%;
-		height: 80%;
-	}
-	#ollie:hover, #lucky:hover, #otto:hover, #olivia:hover, #dog:hover, #hannah:hover {
-		width: 80%;
-		height: 80%;
-	}
-	.row1 {
-		padding: 30px 0 0 0;
-		text-align: center;
-	}
-	.row2 {
-		padding: 0;
-		text-align: center;
-	}
-	.row3 {
-		padding: 0;
-		text-align: center;
-	}
+
 	#bio {
 		display: block;
 		width: 100%;
-		padding: 3em 3em 3em 3em;
+		padding: 0 2em 3em 2em;
 	}
-	#prices, #ordering {
-		display: block;
-		width: 100%;
-	}
-	#prices {
-		padding: 4em 4em 0em 4em;
-	}
+
+	.button a {
+    width: 90%;
+    margin: 0 5% 3em 5%;
+    }
 
 }
-
-
-#social {display:none;}

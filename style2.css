@@ -30,7 +30,7 @@ a {
 #about p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.02em;
 	color: #1C1C1C;
 	background-color: #ffffff;
 	text-align: center;
@@ -64,7 +64,7 @@ a {
 header {
 	background-color: #343434;
 	width: 100%;
-	height: 5.6em;
+	height: 90px;
 }
 
 /*nav {
@@ -133,11 +133,11 @@ label {
 
 #logo {
 	float: left;
-	margin: 0.75em 1.25em;
+	margin: 0.8em 1em 0 1em;
 }
 
 #logo img {
-	width: 12.5em;
+	width: 200px;
 }
 
 #image {
@@ -148,6 +148,10 @@ label {
  	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+	height: 550px;
+}
+
+#image img {
 	height: 550px;
 }
 
@@ -173,7 +177,7 @@ footer {
 	float: left;
 	font-size: .85em;
 	color: #ffffff;
-	padding-left: 22px;
+	padding-left: 2em;
 	padding-top: 1.15em;
 }
 
@@ -224,26 +228,33 @@ footer {
   	background-size: cover;
 }
 
+#description p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	letter-spacing: 0.02em;
+	color: #1C1C1C;
+	text-align: center;
+	padding: 2em 0 1em 0;
+	background-color: #ffffff;
+	width: 50em;
+	margin: 0 auto;
+	line-height: 150%;
+}
+
 .gallery a {
 	padding: 0 1em;
+	outline: 0;
 }
 
 .row1 {
 	margin: 0 auto;
 	text-align: center;
-	padding: 2em 0;
+	padding: 2em 0 0 0;
 	width: 50em;
 	background-color: #ffffff;
 }
 
 .row2 {
-	margin: 0 auto;
-	text-align: center;
-	width: 50em;
-	background-color: #ffffff;
-}
-
-.row3 {
 	margin: 0 auto;
 	text-align: center;
 	padding: 2em 0;
@@ -255,10 +266,6 @@ footer {
 	width: 40%;
 	height: 40%;
 	border-radius: 50%;
-}
-
-#ollie:hover, #lucky:hover, #otto:hover, #olivia:hover, #dog:hover, #hannah:hover {
-	border-radius: 0;
 }
 
 #left {
@@ -296,7 +303,7 @@ figcaption {
 
 #bio {
 	float: left;
-	padding: 0 3em;
+	padding: 0 2em;
 	width: 50%;
 	top: 50%;
 	bottom: 50%;
@@ -305,6 +312,7 @@ figcaption {
 
 #bio p {
 	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.02em;
 	font-size: 1em;
 	color: #1C1C1C;
 	background-color: #ffffff;
@@ -315,7 +323,7 @@ figcaption {
 #sizes ul {
 	font-family: 'Open Sans', sans-serif;
 	list-style: none;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.02em;
 	text-align: center;
 	line-height: 150%;
 	width: 100%;
@@ -325,10 +333,9 @@ figcaption {
 #basics ul {
 	font-family: 'Open Sans', sans-serif;
 	list-style: none;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.02em;
 	text-align: left;
-	padding: 3em 0 3em 0;
-	right-margin: 3em;
+	padding: 3em 0;
 	line-height: 150%;
 	width: 60%;
 	margin: 0 auto;
@@ -337,7 +344,7 @@ figcaption {
 h2 {
 	font-family:'Open Sans', sans-serif;
 	font-size: 1.5em;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.02em;
 	color: #1C1C1C;
 	text-align: center;
 	padding-top: 2em;
@@ -367,7 +374,7 @@ hr {
 
 @media screen and (max-width: 800px) {
 	body {
-		font-size: 15px;
+		font-size: 16px;
 	}
 	/*nav a {
 		padding: 2.1em 1.2em;
@@ -395,12 +402,7 @@ hr {
 		width: 100%;
 	}
 
-	#ollie, #lucky, #otto, #olivia, #dog, #hannah {
-		width: 40%;
-		height: 40%;
-	}
-
-	#ollie:hover, #lucky:hover, #otto:hover, #olivia:hover, #dog:hover, #hannah:hover {
+	#ollie, #lucky, #otto, #olivia, {
 		width: 40%;
 		height: 40%;
 	}
@@ -412,11 +414,11 @@ hr {
 	}
 
 	#basics ul {
-		width: 80%;
+		width: 85%;
 	}
 
 	hr {
-	width: 80%;
+		width: 85%;
 	}
 
 	figure {
@@ -426,9 +428,11 @@ hr {
 	}
 
 	#bio {
-		display: block;
 		width: 100%;
-		padding: 0 2em 3em 2em;
+	}
+
+	#bio p {
+		padding-bottom: 3em;
 	}
 
 	.button a {
@@ -439,7 +443,7 @@ hr {
 
 @media screen and (max-width: 500px) {
 	body {
-		font-size: 14px;
+		font-size: 15px;
 	}
 
 	#logo img {
@@ -456,7 +460,7 @@ hr {
 	.nav_sm img {
 	width: 30px;
 	margin: 0;
-	padding-top: 0.8em;
+	padding-top: 1.2em;
 	}
 
 	.nav_sm ul, li {
@@ -498,12 +502,6 @@ hr {
 	
 	#about p {
 		width: 90%;
-	}
-
-	#bio {
-		display: block;
-		width: 100%;
-		padding: 0 2em 3em 2em;
 	}
 
 	.button a {

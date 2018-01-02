@@ -8,12 +8,16 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width, initialscale=1">
+
+<!-- gallery -->
+<link rel="stylesheet" href="magnific-popup.css">
+
 </head>
 
 <body>
 	<header>
 		<div id="logo">
-			<a href="index.html"><img src="assets/logo.png"></a>
+			<a href="/"><img src="assets/logo.png"></a>
 		</div>
 		<nav>
 			<div class="nav_lg">
@@ -43,17 +47,17 @@
 	</section>
 
 	<section class="gallery">
+		<section id="description">
+		<p>
+		A selection of past customers' portraits.
+		</p>
 		<section class="row1">
-			<a href="#"><img id="ollie" src="assets/olliesmall.jpg"></a>
-			<a href="#"><img id="olivia" src="assets/olivia.jpg"></a>
+			<a href="assets/ollie.jpg"><img id="ollie" src="assets/olliesmall.jpg"></a>
+			<a href="assets/olivia.jpg"><img id="olivia" src="assets/oliviasmall.jpg"></a>
 		</section>
 		<section class="row2">
-			<a href="#"><img id="lucky" src="assets/lucky.jpg"></a>
-			<a href="#"><img id="dog" src="assets/dog.jpg"></a>
-		</section>
-		<section class="row3">
-			<a href="#"><img id="otto" src="assets/otto.jpg"></a>
-			<a href="#"><img id="hannah" src="assets/hannah.jpg"></a>
+			<a href="assets/otto.jpg"><img id="otto" src="assets/ottosmall.jpg"></a>
+			<a href="assets/lucky.jpg"><img id="lucky" src="assets/luckysmall.jpg"></a>
 		</section>
 	</section>
 	<div class="clearfix"></div>
@@ -64,6 +68,14 @@
 	</div>
 </footer>
 
+<script src="jquery.js"></script>
+<script src="jquery.magnific-popup.min.js"></script>
+<script type='text/javascript'>
+$(document).ready(function() {
+  $('section a').magnificPopup({type:'image'});
+});
+
+</script>
 </body>
 
 </html>

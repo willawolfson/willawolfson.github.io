@@ -133,7 +133,7 @@ label {
 
 #logo {
 	float: left;
-	margin: 0.8em 1em 1em 1em;
+	margin: 0.8em 1em 0 1em;
 }
 
 #logo img {
@@ -459,6 +459,7 @@ hr {
 	.nav_sm ul, li {
 	list-style: none;
 	width: 100%;
+	margin-top: 0.5em;
 	}
 
 	.nav_sm a {
